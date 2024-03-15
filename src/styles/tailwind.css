@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: black;
+}
+
+.dark-theme {
+  --bg-color: #1f2937;
+  --text-color: #f5f5f5;
+}
+
+.App {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.font-hanken-grotesk {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
